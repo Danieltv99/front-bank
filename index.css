@@ -1,0 +1,45 @@
+body{
+    background-color: azure;
+}
+
+
+
+/* Estilos para el contenedor y el rectángulo */
+.container {
+    position: relative;
+}
+  
+.rectangle {
+    width: 1520px;
+    height: 100px;
+    background: linear-gradient(to right, #ff512f, #1845ad);
+    /* Cambia los colores para personalizar el degradado */
+    position: absolute;
+    
+}
+  
+  /* Estilos para los botones */
+.botones {
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+  
+.botones  div {
+    display: inline-block; /* Mostrar los elementos en línea */
+    margin-right: 15px; /* Ajustar el espacio entre botones */
+    
+}
+  
+.botones button {
+    padding: 10px 20px;
+    background-color: rgb(174, 162, 162)828;
+    color: #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
